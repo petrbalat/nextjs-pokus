@@ -23,13 +23,13 @@ jobs:
         with:
           deno-version: v2.x
 
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
+#      - name: Install Node.js
+#        uses: actions/setup-node@v4
+#        with:
+#          node-version: lts/*
 
       - name: Install step
-        run: "deno install"
+        run: "deno install --allow-scripts=npm:sharp@0.33.5"
 
       - name: Build step
         run: "deno run build"
