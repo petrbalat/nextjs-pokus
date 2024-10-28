@@ -87,7 +87,7 @@ Learn more about configuring
 Using Next.js 15? Try the below deploy command, which uses another entrypoint:
 
 ```bash
-deployctl deploy --include=.next --include=public https://raw.githubusercontent.com/arnauorriols/deno-next-start/refs/heads/v15/main.ts
+deployctl deploy --project=petrbalat-nextjs-pokus --include=.next --include=public https://raw.githubusercontent.com/arnauorriols/deno-next-start/refs/heads/v15/main.ts
 ```
 
 ## Learn More
