@@ -1,4 +1,8 @@
 {
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["esnext", "DOM", "deno.window"]
+  },
   "deploy": {
     "project": "c6cb648d-323a-40e5-8a2b-38c01651f685",
     "exclude": [
@@ -9,5 +13,9 @@
       "public"
     ],
     "entrypoint": "https://raw.githubusercontent.com/arnauorriols/deno-next-start/refs/heads/v15/main.ts"
+  },
+  "fmt": {
+    "exclude": ["./.next"],
+    "include": ["./src"]
   }
 }
