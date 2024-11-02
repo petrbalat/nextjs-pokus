@@ -19,11 +19,12 @@ deno task build && deployctl deploy --p
 Learn more about configuring
 [`jsr:@deno/nextjs-start`](https://jsr.io/@deno/nextjs-start).
 
-Using Next.js 15? Try the below deploy command, which uses another entrypoint:
+## md
 
 ```bash
-deployctl deploy --project=petrbalat-nextjs-pokus --include=.next --include=public https://raw.githubusercontent.com/arnauorriols/deno-next-start/refs/heads/v15/main.ts
+deno install npm:@next/mdx npm:@mdx-js/loader npm:@mdx-js/react npm:@types/mdx npm:next-mdx-remote
 ```
+[config mdx](https://nextjs.org/docs/pages/building-your-application/configuring/mdx)
 
 ## Learn More
 
