@@ -12,7 +12,7 @@
       ".next",
       "public"
     ],
-    "entrypoint": "https://raw.githubusercontent.com/arnauorriols/deno-next-start/refs/heads/v15/main.ts"
+    "entrypoint": "jsr:@deno/nextjs-start/v15"
   },
   "fmt": {
     "exclude": ["./.next"],
